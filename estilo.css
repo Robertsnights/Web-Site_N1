@@ -1,0 +1,563 @@
+/* Encabezado */
+header, section, footer{
+	width: 1200px;
+	margin-left: auto;
+	margin-right: auto;
+}
+section{
+	position: relative;
+	height: 600px;
+	margin-top: auto;
+}
+footer{
+	background: -webkit-linear-gradient(darkred 35%, black);
+	position: relative;
+	height: 180px;
+}
+header{
+	background: -webkit-linear-gradient(black 45%, darkred );
+	height: 180px;
+}
+#Titulo{
+	position: relative;
+	color: indianred;
+	font-size: 48px;
+	text-align: center;
+	font-style: italic;
+	text-shadow: 3px 3px 5px black;
+}
+#Logo{
+	height: 150px;
+	width: 170px;
+	background: url("imagenes/Logo.png") no-repeat;
+	background-size: contain;
+	margin: 10px;
+	position: relative;
+	float: left;
+}
+#Nombre{
+	position: relative;
+	height: 150px;
+	width: 770px;
+	background: url("imagenes/info.jpg");
+	opacity: 0.65;
+	margin: 10px;
+	float: left;
+}
+#Botonera{
+	width: 200px;
+	height: 150px;
+	position: relative;
+	margin: 1px;
+	float: left;
+}
+ul{
+	list-style-type: none;
+	position: relative;
+	margin-right: 10px;
+}
+ol{
+	list-style-type: none;
+	margin-left: 1px;
+}
+.menu{
+	width: 101px;
+	height: 35px;
+	background: -webkit-linear-gradient(rgba(255,215,0,0.45) 45%, rgba(97,0,0,0.5));
+	position: relative;
+	float: left;
+	margin-top: 2px;
+	margin-left: 2px;
+	text-align: center;
+}
+#nave{
+	text-decoration: none;
+	font-size: 20px;
+	color: rgba(1, 1, 1, 1.5);
+	
+}
+#Botonera ul li a:hover{
+	background-color: rgba(50, 50, 50, 1);
+}
+/* Cuerpo Parte 1*/
+#Cuerpo1{
+	background: -webkit-linear-gradient(darkred 35%, #07004c);
+	
+}
+#Lista{
+	width: 440px;
+	height: 580px;
+	position: relative;
+	margin: auto;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	background-color: rgba(92, 150, 205, 0.2);
+}
+#Nicodemo{
+	background: -webkit-linear-gradient(blue 70%, #572364);
+}
+#imagen1{
+	width: 680px;
+	height: 580px;
+	background: url("imagenes/personaje1.jpg") no-repeat;
+	background-size: contain;
+	position: relative;
+	margin: 10px;
+	margin-top: 10px;
+	margin-left: 60px;
+	float: left;
+}
+.texto{
+	text-align: center;
+	margin-top: 2px;
+	font-size: 45px;
+	text-shadow: 2px 2px 3px black;
+}
+.personaje{
+	width: 370px;
+	height: 85px;
+	position: relative;
+	margin-top: 10px;
+	color: silver;
+}
+#Roberto{	
+	background: -webkit-linear-gradient(#572364 70%, #AA336A);
+}
+#Yesica{	
+	background: -webkit-linear-gradient(#AA336A 70%, darkorange);
+}
+#Nightmare{
+	background: -webkit-linear-gradient(darkorange 70%, gold);
+}
+#Salazar{
+	background: -webkit-linear-gradient(gold 70%, darkgreen);
+}
+#more{
+	background-color: darkgreen;
+}
+/* Cuerpo Parte 2 */
+#Cuerpo2{
+	background: -webkit-linear-gradient(#07004c 40% , #21618c);
+}
+.venta{
+	position: relative;
+	width: 228px;
+	height: 570px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#primero{
+	background: url("imagenes/personaje2.jpg") no-repeat;
+	background-position: center;
+}
+#segundo{
+	background: url("imagenes/personaje3.jpg") no-repeat;
+	background-position: center;
+}
+#tercero{
+	background: url("imagenes/personaje4.jpg") no-repeat;
+	background-position: center;
+}
+#cuarto{
+	background: url("imagenes/Salazar.jpg") no-repeat;
+	background-position: center;
+}
+#quinto{
+	background: url("imagenes/oda.jpg") no-repeat;
+	background-position: center;
+}
+/* Cuerpo Parte 3 */
+#Cuerpo3{
+	background: -webkit-linear-gradient(#21618c 40% ,#ba4a00);
+}
+.base{
+	position: relative;
+	width: 585px;
+	height: 580px;
+	float: left;
+}
+.H, #K{
+	color: darkred;
+	font-size: 23px;
+	margin: auto;
+	text-align: center;
+	margin-top: 5px;
+}
+#primer{
+	border: 3px;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0.5);
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#segun{
+	background: url("imagenes/ooku.jpg") no-repeat;
+	background-size: contain;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+/* Cuerpo parte 4 */
+#Cuerpo4{
+	background: -webkit-linear-gradient(#ba4a00 40%, darkred);
+}
+#Mensaje{
+	color:black;
+	text-shadow: 2px 2px 4px white;
+}
+#ideal{
+	background: url('imagenes/heraldo.jpg') no-repeat;
+	background-size: contain;
+	height: 300px;
+	background-position: center;
+}
+#guardado{
+	background: url('imagenes/laboratorio.jpg') no-repeat;
+	background-size: contain;
+	height: 300px;
+}
+#formulario{
+	border: 3px;
+	border-style: solid;
+	border-color: rgba(186, 0, 39, 0.7);
+}
+/* Pie de Página */
+#logoFinal{
+	background: url("imagenes/Logo.png") no-repeat;
+	background-size: contain;
+	height: 150px;
+	width: 170px;
+	margin: 10px;
+	position: relative;
+	float: left;
+}
+#info{
+	background: url("imagenes/info.jpg") no-repeat;
+	background-size: contain;
+	position: relative;
+	height: 150px;
+	width: 770px;
+	margin: 10px;
+	float: left;
+}
+#Dato, .data{
+	text-align: center;
+	margin-top: 2px;
+	position: relative;
+	margin: auto;
+	color: Black;
+	text-shadow: 2px 2px 3px white;
+}
+#Dato{
+	font-size: 29px;
+}
+.data{
+	font-size: 19px;
+}
+#mas{
+	background: url("imagenes/retorno.png") no-repeat;
+	background-size: contain;
+	width: 200px;
+	height: 150px;
+	position: relative;
+	margin: 10px;
+	float: left;
+	border: 3px;
+	border-style: solid;
+	border-color: rgba(0, 0, 0, 0.9);
+	margin-top: 10px;
+	margin-left: 10px;
+}
+#vuelta{
+	margin-top: 100px;
+}
+/* responsitive de [600 - 1200] pixeles */
+@media all and (min-width: 600px) and (max-width: 1200px) {
+	/* Encabezado */
+	header, section, footer{
+		width: 100%;
+	}
+	footer{
+		height: 120px;
+		background: url("imagenes/info.jpg");
+		background-size: contain;
+	}
+	header{
+		height: 180px;
+	}
+	#Titulo{
+		font-size: 32px;
+	}
+	#Logo{
+		margin-left: 1px;
+		height: 80px;
+		width: 10%;
+	}
+	#Nombre{
+		height: 80%;
+		width: 30%;
+		float: left;
+
+	}
+	#Botonera{
+		width: 40%;
+		height: 30px;
+		float: left;
+	}
+	.menu{
+		width: 50%;
+		height: auto;
+		margin-top: auto;
+		margin-left: auto;
+		float: none;
+	}
+	#nave{
+		font-size: 18px;
+
+	}
+	/* Cuerpo Parte 1*/
+	#Cuerpo1{
+		margin-top: auto;
+		height: 400px;
+	}
+	#Lista{
+		width: 35%;
+		height: 95%;
+		margin-top: 0%;
+		margin-left: 10px;
+		margin: 10px;
+	}
+	#imagen1{
+		position: relative;
+		width: 30%;
+		height: 200px;
+		margin: 0px;
+		margin-left: 10%;
+		margin-top: 10px;
+	}
+	.texto{
+		font-size: 30px;
+	}
+	.personaje{
+		width: 90%;
+		height: 30%;
+		position: relative;
+		margin-left: 1px;
+	}
+	/* Cuerpo Parte 2 */
+	#Cuerpo2{
+		height: 410px;
+		margin: auto;
+		margin-top: 0px;
+	}
+	.venta{
+		width: 97%;
+		height: 70px;
+		margin-top: 10px;
+	}
+	/* Cuerpo Parte 3 */
+	#Cuerpo3{
+		position: relative;
+		height: 500px;
+	}
+	.base{
+		width: 97%;
+		height: 45%;
+	}
+	.H, #K{
+		font-size: 12px;
+	}
+	#primer{
+		margin-top: 10px;
+		margin-left: 10px;
+	}
+	#segun{
+		margin-top: 10px;
+		margin-left: 30%;
+	}
+	/* Pie de Página */
+	#logoFinal{
+		height: 80%;
+		width: 30%;
+		float: left;
+		margin: auto;
+	}
+	#info{
+		height: 85px;
+		width: 35%;
+		float: left;
+		margin: 10px;
+	}
+	#Dato, .data{
+		margin-top: 0px;
+		margin: 0px;
+	}
+	#Dato{
+		font-size: 20px;
+	}
+	.data{
+		font-size: 13px;
+	}
+	#mas{
+		width: 20%;
+		height: 40%;
+		position: relative;
+		float: left;
+		margin-right: auto;
+		margin-left: 10%;
+	}
+	#vuelta{
+		margin-top: auto;
+		margin-left: 1px;
+		width: 10%;
+	}
+	#vuelta a{
+		color: Black;
+		text-shadow: 2px 2px 3px white;
+	}
+}
+
+@media all and (max-width: 599px){
+	/* Encabezado */
+	header, section, footer{
+		width: auto;
+	}
+	footer{
+		background: url("imagenes/info.jpg");
+		background-size: contain;
+		height: 100px;
+	}
+	header{
+		height: 150px;
+	}
+	#Titulo{
+		font-size: 20px;
+	}
+	#Logo{
+		margin: auto;
+		height: 80px;
+		width: 20%;
+	}
+	#Nombre{
+		height: 50%;
+		width: 40%;
+		float: left;
+	}
+	#Botonera{
+		width: 97%;
+		height: 30%;
+		float: none;
+		margin-left: auto;
+		margin-top: auto;
+	}
+	.menu{
+		float: none;
+		width: 30%;
+		height: 30px;
+		margin-left: auto;
+	}
+	#nave{
+		font-size: 13px;
+
+	}
+	/* Cuerpo Parte 1*/
+	#Cuerpo1{
+		height: 500px;
+	}
+	#Lista{
+		width: 89%;
+		height: 300px;
+		float: left;
+		margin-top: 0%;
+		margin-left: auto;
+	}
+	#imagen1{
+		position: relative;
+		width: 50%;
+		height: 200px;
+		float: left;
+		margin: auto;
+		margin-left: 25%;
+		margin-top: 4%;
+	}
+	.texto{
+		font-size: 20px;
+	}
+	.personaje{
+		width: auto;
+		height: 100%;
+		margin-top: 5px;
+		margin-left: auto;
+	}
+	/* Cuerpo Parte 2 */
+	#Cuerpo2{
+		height: 350px;
+	}
+	.venta{
+		width: 94%;
+		height: 60px;
+		float: left;
+		margin: auto;
+		margin-top: 2%;
+		margin-left: 10px;
+	}
+	/* Cuerpo Parte 3 */
+	#Cuerpo3{
+		position: relative;
+		height: 300px;
+	}
+	.base{
+		position: relative;
+		width: 94%;
+		height: 99px;
+		float: left;
+	}
+	.H, #K{
+		font-size: 10px;
+		margin-top: 0px;
+	}
+	#segun{
+		margin-left: 30%;
+	}
+	/* Cuerpo parte 4 */
+	#Cuerpo4{
+		height: auto;
+	}
+	#guardado{
+		height: 150px;
+	}
+	/* Pie de Página */
+	#logoFinal{
+		height: 45%;
+		width: 25%;
+		float: left;
+		margin: auto;
+	}
+	#info{
+		height: 50px;
+		width: 35%;
+		float: left;
+		margin: 10px;
+	}
+	#Dato, .data{
+		margin-top: 0px;
+		margin: 0px;
+	}
+	#Dato{
+		font-size: 9px;
+	}
+	.data{
+		font-size: 11px;
+	}
+	#mas{
+		width: 30%;
+		height: 40%;
+		position: relative;
+		float: left;
+		margin-right: auto;
+	}
+	#vuelta{
+		margin-top: auto;
+	}
+}
